@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
 
-for i in range(len(sys.argv)):
+# Commencer l'itération à partir de 1 pour éviter d'afficher le nom du script
+for i in range(1, len(sys.argv)):
     print(sys.argv[i])
